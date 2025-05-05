@@ -161,7 +161,6 @@ def make_ui():
                 # TODO: Perhaps make this list external so it can be updated independent of CH version.
                 "Checkpoint",
                 "TextualInversion",
-                "Hypernetwork",
                 "AestheticGradient",
                 "LORA",
                 "LoCon",

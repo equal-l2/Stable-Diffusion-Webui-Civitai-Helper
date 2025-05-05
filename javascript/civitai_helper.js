@@ -676,8 +676,6 @@ function getShortModelTypeFromFull(model_type_full) {
     switch (model_type_full) {
         case "textual_inversion":
             return "ti";
-        case "hypernetworks":
-            return "hyper";
         case "checkpoints":
             return "ckp";
         case "lora":
@@ -691,8 +689,6 @@ function getLongModelTypeFromShort(model_type_short) {
     switch (model_type_short) {
         case "ti":
             return "textual_inversion";
-        case "hyper":
-            return "hypernetworks";
         case "ckp":
             return "checkpoints";
         case "lora":
@@ -876,7 +872,7 @@ onUiLoaded(() => {
 
     // get all extra network tabs
     const tab_prefix_list = ["txt2img", "img2img"];
-    const model_type_list = ["textual_inversion", "hypernetworks", "checkpoints", "lora", "lycoris"];
+    const model_type_list = ["textual_inversion", "checkpoints", "lora", "lycoris"];
 
     // update extra network tab pages' cards
     // * replace "replace preview" text button into the icon from `icons.replace_preview`.

@@ -21,7 +21,6 @@ URLS = {
 MODEL_TYPES = {
     "Checkpoint": "ckp",
     "TextualInversion": "ti",
-    "Hypernetwork": "hyper",
     "LORA": "lora",
     "LoCon": "lycoris",
     "DoRA": "lora",
